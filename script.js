@@ -14,10 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
   let toggled = false;
   toggleButton.addEventListener("click", () => {
     if (toggled) {
-      gallery.src = "./images/assetshield2copy.png";
+      gallery.src = "./assets/images/assetshield2copy.png";
       toggled = false;
     } else {
-      gallery.src = "./images/assetshield2copy.png"; 
+      gallery.src = "./assets/images/assetshield2copy.png"; 
       toggled = true;
     }
   });
