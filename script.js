@@ -10,17 +10,18 @@ document.addEventListener("DOMContentLoaded", () => {
   });
  
  
- 
- let toggled = false;
+
+  let toggled = false;
   toggleButton.addEventListener("click", () => {
     if (toggled) {
-      gallery.src = "./images/image1.jpg";
+      gallery.src = "./assets/image1.jpg";
       toggled = false;
     } else {
-      gallery.src = "./images/image-does-not-exist.jpg"; 
+      gallery.src = "./assets/image-does-not-exist.jpg"; 
       toggled = true;
     }
   });
+ 
  
  
  
