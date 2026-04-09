@@ -1,1 +1,13 @@
+Errors
 
+in HTML code: none
+
+in CSS code: 
+- background-colr: #f9f9f9; (colr instead of color)
+- border: 5px solid blackk; (two k's in the word black)
+- display: non; (non instead of none)
+- border-radius: 20%;; (two semicolons)
+
+in JS code:
+- bx.style.backgroundColor = "blue";  (bx instead of box)
+-  console.log("Page loaded!" (missing closed parenthesis)
