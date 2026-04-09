@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
  
  
   colorButton.addEventListener("click", () => {
-    bx.style.backgroundColor = "blue"; 
+    box.style.backgroundColor = "blue"; 
   });
  
  
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       gallery.src = "./images/assetshield2copy.png";
       toggled = false;
     } else {
-      gallery.src = "./assets/image-does-not-exist.jpg"; 
+      gallery.src = "./images/assetshield2copy.png"; 
       toggled = true;
     }
   });
