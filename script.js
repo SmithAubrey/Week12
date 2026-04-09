@@ -11,13 +11,13 @@ document.addEventListener("DOMContentLoaded", () => {
  
  
  
-  let toggled = false;
+ let toggled = false;
   toggleButton.addEventListener("click", () => {
     if (toggled) {
-      gallery.src = "./assets/images/assetshield2copy.png";
+      gallery.src = "./assets/image1.jpg";
       toggled = false;
     } else {
-      gallery.src = "./assets/images/assetshield2copy.png"; 
+      gallery.src = "./assets/image-does-not-exist.jpg"; 
       toggled = true;
     }
   });
